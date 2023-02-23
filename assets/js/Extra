@@ -1,0 +1,118 @@
+
+ // Metodos y Funciones
+ //  function EstoEsUnaSuma() {
+ //   let C = suma(56.67, 3.1415);
+ //   console.log(C);
+
+ //   let D = suma(43.034, 81.01)
+ //   console.log(D)
+ // }
+
+ // function suma(A,B) {
+ //   let C = A + B
+ //   return C;
+ // }
+
+
+
+// function EstoEsUnaSuma() {
+//    let A = parseInt(document.getElementById("Valor1").value);
+//    let B = parseInt(document.getElementById("Valor2").value);
+//    let C = suma(A,B);
+//    document.getElementById("Comida").innerHTML = C;
+//  } 
+
+//  function suma(A,B) {
+//     let C = A + B
+//     return C;
+//  }
+
+
+//  const database = [
+//   {
+//     nombre: "Gabriel"
+//   },
+//   {
+//     nombre: "Giovanna"
+//   },
+//   {
+//     nombre: "Julio"
+//   },
+//  ];
+
+//  function MostrarClientes() {
+// Objetos
+
+//   for(let index = 0; index < database.length; index++) {
+   
+//     if(database[index].nombre === "Julio") {
+      
+//       continue;
+
+//     } else {
+
+//       document.getElementById("table-content").innerHTML += "<button onclick=" + mostrar ">" + database[index].nombre + "button onclick"
+
+//   }
+//  }
+
+  //  let index = 0;
+  //  while(database[index].nombre !== "Maria") {
+  //   document.getElementById("table-content").innerHTML += 
+  //   "<h4" + database[index].nombre + "</h4>";
+  //   index++;
+
+  //  } 
+  
+//   do { 
+//     document.getElementById("table-content").innerHTML += 
+//       "<h4>" + database[index].nombre + "</h4>";   
+//    } while(database[index].nombre !== "Maria")  
+// }
+
+
+
+
+
+// function EstoEsUnaResta() {
+
+//   // Objetos
+//     const cuenta = {
+//       A: parseInt(document.getElementById("Valor1").value),
+//       B: parseInt(document.getElementById("Valor2").value),
+//       resta: resta,
+//     }
+    
+//     const cuentaTwo = {
+  
+//       D : parseInt(document.getElementById("Valor1").value),
+//       E : parseInt(document.getElementById("Valor2").value),
+//       resta: resta,
+//     }
+  
+//     // Arreglos
+//     const ServeralCuenta = [cuenta, cuentaTwo];
+  
+//     // x = 3
+//     // y = 2
+    
+//   if(ServeralCuenta[0].x > 5) {
+  
+//         let C = cuenta.resta(ServeralCuenta[0].x, ServeralCuenta[1].m);
+//         document.getElementById("Arma1").innerHTML = C;
+  
+//       } else if(ServeralCuenta[1].m > 5){
+  
+//         document.getElementById("Arma2").innerHTML = "El primer valor debe ser mayor a 5"
+  
+//       } else {
+  
+//         document.getElementById("Arma1").innerHTML = "El primer valor debe ser menor a 5"
+//     }
+//   }
+  
+//   function resta(x, y) {
+  
+//     return x - y;
+  
+//   }

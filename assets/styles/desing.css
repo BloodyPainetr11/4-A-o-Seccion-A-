@@ -1,0 +1,96 @@
+#Lobo {
+    
+    height: 60px;
+    width: 60px;
+    justify-content: baseline;
+
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: red;
+    background-color: blueviolet;
+}
+
+.logo-container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.conteiner {
+
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background: blue;
+   height: 300px;
+
+}
+
+/* BOTONES */
+
+.button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    height: 30px;
+    width: "100%"
+    
+
+}
+
+/* CALCULADORA */
+
+.Suma {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 166, 255, 0.875);
+    color: rgba(255, 0, 0, 0.799);
+    
+
+}
+
+.Resta {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 8, 255, 0.875);
+    color: rgba(0, 255, 94, 0.792);
+
+}
+
+.Multiplicacion {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 8, 255, 0.875);
+    color: rgba(229, 255, 0, 0.911);
+
+}
+
+.Division {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 8, 255, 0.875);
+    color: rgba(247, 0, 255, 0.416);
+
+}
